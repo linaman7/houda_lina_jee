@@ -85,8 +85,11 @@ cd houda_lina_jee
 ## 📸 **Captures d’écran**  
 
 ### 🖼️ **ConfigServer et microservice-commandes**  
-📌 **Configuration récupérée depuis GitHub**  
-https://github.com/linaman7/houda_lina_jee/blob/5b7e2a997b31411591e421aebe08f9d7c0233afd/ConfigServer%20et%20microservice-commande.png
+📌 **Configuration récupérée depuis GitHub** 
+![image alt](https://raw.githubusercontent.com/linaman7/houda_lina_jee/main/le%20parametre%20%C3%A0%20r%C3%A9cup%C3%A9rer%20par%20le%20ConfigServer%20dans%20github..png)
+
+
+
 
 ### 🖼️ **Eureka, API Gateway et Produit et Commandes**  
 Pour bien lancer l'application il faut d'abord lancer le EurekaServer puis api-gateway et finalement les deux microservices
