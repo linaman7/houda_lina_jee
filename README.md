@@ -86,24 +86,18 @@ cd houda_lina_jee
 
 ### 🖼️ **ConfigServer et microservice-commandes**  
 📌 **Configuration récupérée depuis GitHub**  
-![Configuration depuis GitHub](https://github.com/linaman7/houda_lina_jee/blob/main/images/configserver_microservice_commande.png)  
+https://github.com/linaman7/houda_lina_jee/blob/5b7e2a997b31411591e421aebe08f9d7c0233afd/ConfigServer%20et%20microservice-commande.png
 
-📌 **Commande récupérée via le service Actuator**  
-![Résultat Actuator](https://github.com/linaman7/houda_lina_jee/blob/main/images/commande_actuator.png)  
+### 🖼️ **Eureka, API Gateway et Produit et Commandes**  
+Pour bien lancer l'application il faut d'abord lancer le EurekaServer puis api-gateway et finalement les deux microservices
+![Résultat de l'action getRecentCommandes de microservice-commande](images/les ports.png)
 
----
 
-### 🖼️ **Eureka, API Gateway et Microservices**  
-📌 **Vue du tableau de bord Eureka (Liste des microservices enregistrés)**  
-![Eureka Dashboard](https://github.com/linaman7/houda_lina_jee/blob/main/images/eureka_dashboard.png)  
 
-📌 **Accès aux microservices via API Gateway**  
-![API Gateway](https://github.com/linaman7/houda_lina_jee/blob/main/images/api_gateway.png)  
+On peut bien apercevoir que notre endpoint est activé via l'api gateway
 
-📌 **Communication entre `microservice-commandes` et `microservice-produits`**  
-![Communication entre microservices](https://github.com/linaman7/houda_lina_jee/blob/main/images/microservices_communication.png)  
+Maintenant essayons de passer par l api gateway vers commande vers produit il faut qu' on atteint cette endpoint du controlleur du microservice commande qui va communiquer avec le microservice produit
 
----
 
 ## 📜 **Livrables**  
 📌 **Code source** : Déposé sur GitHub ([Lien du repo](https://github.com/linaman7/houda_lina_jee.git))  
